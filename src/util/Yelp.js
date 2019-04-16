@@ -23,7 +23,9 @@ const Yelp = {
                         zipCode: business.location.postal_code,
                         category: business.categories.title,
                         rating: business.rating,
-                        reviewCount: business.review_count
+                        reviewCount: business.review_count,
+                        coordinates: business.coordinates,
+                        country: business.location.country
                     }
                 });
             }
